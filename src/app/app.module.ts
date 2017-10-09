@@ -7,8 +7,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 
-import {ShareButtonsModule} from 'ngx-sharebuttons';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+// import {ShareButtonsModule} from 'ngx-sharebuttons';
+// import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -18,8 +18,8 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
   ],
   imports: [
     HttpModule,
-    NgbModule.forRoot(),
-    ShareButtonsModule.forRoot(),
+    // NgbModule.forRoot(),
+    // ShareButtonsModule.forRoot(),
     BrowserModule.withServerTransition({ appId: 'my-app' }),
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
